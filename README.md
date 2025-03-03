@@ -21,7 +21,7 @@ Postman (Opcional, para probar los endpoints)
 Instalación
 
 Clona el repositorio:
-git clone https://github.com/ByronMonzon/aplicacion_habitos.git
+git clone https://github.com/ByronMonzon/habitos_aplicacion.git
 cd aplicacion_habitos
 
 Instala las dependencias del servidor:
