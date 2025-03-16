@@ -11,6 +11,7 @@ Express.js
 MongoDB (MongoDB Atlas)
 Mongoose
 dotenv
+cors
 
 Requerimientos
 
@@ -36,6 +37,7 @@ PORT=3000
 
 Inicia el servidor:
 
-npm start
+npm start para backend
+npm run dev para frontend
 
 Abre el navegador en http://localhost:3000
