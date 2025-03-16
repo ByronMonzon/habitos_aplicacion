@@ -1,41 +1,47 @@
-Gestión de Hábitos
+# Gestión de Hábitos
 
-Descripción
+## Descripción
 
-Esta aplicación web permite a los usuarios gestionar hábitos diarios, ayudándoles a desarrollar buenos hábitos o deshacer malos hábitos.
+La aplicación **Gestión de Hábitos** permite a los usuarios gestionar y seguir sus hábitos diarios. El objetivo es ayudar a desarrollar buenos hábitos o eliminar malos hábitos a través de un seguimiento sencillo y eficiente.
 
-Tecnologías
+## Tecnologías
 
-Next.js
-Express.js
-MongoDB (MongoDB Atlas)
-Mongoose
-dotenv
+La aplicación está desarrollada con las siguientes tecnologías:
 
-Requerimientos
+- **Frontend**: 
+  - [Next.js](https://nextjs.org/) - Framework React para crear interfaces de usuario.
+  - [React](https://reactjs.org/) - Biblioteca de JavaScript para construir interfaces de usuario.
+  - [Redux Toolkit](https://redux-toolkit.js.org/) - Herramienta para manejar el estado global de la aplicación.
+  - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para un diseño rápido y flexible.
 
-Node.js (v16+)
-MongoDB Atlas (Base de datos en la nube)
-Postman (Opcional, para probar los endpoints)
+- **Backend**:
+  - [Express.js](https://expressjs.com/) - Framework web para Node.js.
+  - [MongoDB](https://www.mongodb.com/) - Base de datos NoSQL para almacenar los hábitos de los usuarios.
+  - [Mongoose](https://mongoosejs.com/) - Librería para modelar datos de MongoDB en Node.js.
+  - [dotenv](https://www.npmjs.com/package/dotenv) - Módulo para cargar variables de entorno.
 
-Instalación
+## Requerimientos
 
-Clona el repositorio:
-git clone https://github.com/ByronMonzon/habitos_aplicacion.git
-cd aplicacion_habitos
+Antes de comenzar, asegúrate de tener instalados los siguientes programas:
 
-Instala las dependencias del servidor:
+- **Node.js** v16 o superior: [Descargar Node.js](https://nodejs.org/)
+- **MongoDB Atlas**: [Crea una cuenta en MongoDB Atlas](https://www.mongodb.com/cloud/atlas) para obtener una base de datos en la nube.
+- **Postman** (opcional): Herramienta útil para probar los endpoints de la API. [Descargar Postman](https://www.postman.com/)
 
-cd server
+## Instala las dependencias:
+
+cd (nombre de la carpeta)
 npm install
 
 Configura las variables de entorno: Crea un archivo .env en la carpeta del servidor con el siguiente contenido:
 
 MONGO_URI=tu_conexion_mongodb_atlas
-PORT=3000
+PORT=3001
 
 Inicia el servidor:
 
 npm start
 
-Abre el navegador en http://localhost:3000
+Abre el navegador en http://localhost:3001
+
+Para iniciar el frontend usa: npm run dev
