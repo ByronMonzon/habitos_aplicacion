@@ -8,7 +8,7 @@ import Habits from "@/app/habits";
 
 export default function Home() {
   const dispatch = useDispatch<AppDispatch>();
-  const habits = useSelector((state: RootState) => state.habit.habits);
+  const habits = useSelector((state: RootState) => state.habits.habits);
   useEffect(() => {
     dispatch(fetchHabitsThunk());
   }, [dispatch]);
